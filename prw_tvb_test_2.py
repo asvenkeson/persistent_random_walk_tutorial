@@ -38,9 +38,9 @@ print("Lx =",Lx)
 
 
 y_half=x_half #condition for square lattice  
-y_min=-y_half #minimum x position on lattice 
-y_max=y_half #maximum x position on lattice
-Ly=y_max-y_min+1 #number of lattice sites along x direction
+y_min=-y_half #minimum y position on lattice 
+y_max=y_half #maximum y position on lattice
+Ly=y_max-y_min+1 #number of lattice sites along y direction
 y_array=np.linspace(y_min, y_max, Ly)
 
 print("y_min =",y_min)

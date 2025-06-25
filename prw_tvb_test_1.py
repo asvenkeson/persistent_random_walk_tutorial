@@ -53,7 +53,7 @@ R_l[0][1]=-1
 R_l[1][0]=1
 #print("R_l =\n",R_l)
 
-R_r=np.zeros((2, 2), dtype=float)  # rotation to left by pi/2
+R_r=np.zeros((2, 2), dtype=float)  # rotation to right by pi/2
 R_r=-R_l
 #print("R_r =\n",R_r)
 
@@ -80,11 +80,10 @@ V_yp[1]=1
 V_yn=-V_yp   
 #print("V_yn =\n",V_yn)
 
-
 '''
 #test rotation matrix on velocity vector
-Y=R_r @ V_xp
-#print("Y =\n",Y)
+Y=R_r @ V_yp
+print("Y =\n",Y)
 '''
 
 
